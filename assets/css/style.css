@@ -138,8 +138,7 @@ body{
 }
 /* Change Your Habits */
 .change{
-    margin:  57px 190px 0;
-    margin-top: 100px;
+    margin:  100px 190px 0;
 }
 .middle{
     text-align: center;
@@ -286,4 +285,26 @@ body{
     width: 181px;
     height: 50px;
     background-color: rgb(230, 83, 60);
+}
+/* why choose us */
+.choose{
+    margin:  250px 190px 0;
+   display: flex;
+}
+.choose-img{
+    width: 50%;
+    position: relative;
+    left: 35px;
+    bottom: 100px;
+    z-index: 1;
+}
+.choose-img img{
+    width: 100%;
+}
+.choose-content{
+    width: 50%;
+    background-image:  linear-gradient(rgba(255, 192, 203, 0.473), rgba(255, 255, 255, 0.63), rgba(0, 128, 0, 0.411)), url(../img/exercise1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
