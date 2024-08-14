@@ -6,6 +6,8 @@
     <title>GYMNASIUM💪🏼</title>
     <!-- favicon -->
      <link rel="shortcut icon" href="assets/img/time.png" type="image/x-icon">
+     <!-- FAVICON -->
+     <script src="https://kit.fontawesome.com/8f3f69e7c2.js" crossorigin="anonymous"></script>
     <!-- CSS -->
      <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -87,12 +89,64 @@
             <div class="run-left">
                 <h1>Run an Extra <br> Mile Easily</h1>
                 <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts.</p>
-                <button class="btn" id="btn-join">Join Now</button>
+                <button class="btn join">Join Now</button>
             </div>
             <div class="run-right">
                 <img src="assets/img/run1.png" alt="">
             </div>
         </div>
        </section>
+       <!-- BMI Calculator -->
+        <section class="calculator">
+            <h1>BMI Calculator</h1>
+            <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+        </section>
+        <section class="calculator-container">
+            <div class="chart">
+                <h1>BMI Calculator Chart</h1>
+                <table class="table">
+                    <tr>
+                        <th>BMI </th>
+                        <th>Weight Status</th>
+                      </tr>
+                      <tr>
+                        <td>Below 18.5</td>
+                        <td>Underweight</td>
+                      </tr>
+                      <tr>
+                        <td>18.5 - 24.9</td>
+                        <td>Healthy</td>
+                      </tr>
+                      <tr>
+                        <td>25.0 - 29.9</td>
+                        <td>Overweight</td>
+                      </tr>
+                      <tr>
+                        <td>30.0 - and Above</td>
+                        <td>Obese</td>
+                      </tr>
+                </table>
+            </div>
+            <div class="calculation">
+                <h1>Calculate your BMI</h1>
+                <p>We believe fitness should be accessible to everyone, everywhere, regardless of <br>income or access to a gym. </p>
+                <form class="form">
+                    <div class="input-box">
+                        <input type="text" placeholder="Height/cm">
+                        <input type="text" placeholder="Weight/kg">
+                    </div>
+                    <div class="input-box">
+                        <input type="text" placeholder="Age">
+                        <input type="text" placeholder="Sex">
+                        <i class="fa-solid fa-angle-down"></i>
+                    </div>
+                    <div class="input-box">
+                        <input id="activity" type="text" placeholder="Select an activity factor">
+                        <i class="fa-solid fa-angle-down"></i>
+                    </div>
+                </form>
+                <button class="btn join">Calculate</button>
+            </div>
+        </section>
 </body>
 </html>

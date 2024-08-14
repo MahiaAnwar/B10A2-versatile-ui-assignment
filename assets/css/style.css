@@ -208,7 +208,80 @@ body{
     height: 366px;
     border-radius: 18px;
 }
-#btn-join{
+/* BMI Calculator */
+.calculator{
+    text-align: center;
+    margin-top: 100px;
+}
+.calculator h1{
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+}
+.calculator-container{
+    background-color:  rgb(34, 34, 34);
+    margin-top: 100px;
+}
+.calculator-container{
+    display: flex;
+    justify-content: space-between;
+}
+.chart{
+    margin-top: 52px;
+    margin-left: 300px;
+}
+.chart h1{
+    font-size: 28px;
+    font-weight: 900;
+    color: white;
+}
+.table, th, td {
+    margin-top: 52px;
+    border: 1px solid white;
+    border-collapse: collapse;
+    width: 300px;
+    height: 40px;
+    color: white;
+    text-align: center;
+}
+.calculation{
+    margin-top: 49px;
+    margin-right: 189px;
+    margin-bottom: 52px;
+}
+.calculation h1{
+    font-size: 28px;
+    font-family: 900;
+    color: white;
+}
+.calculation p{
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 34px;
+}
+.dflex{
+    display: flex;
+}
+.input-box input{
+    height: 35px;
+    background-color: rgba(128, 128, 128, 0.336);
+    border: none;
+    margin-bottom: 5px;
+}
+.input-box input::placeholder{
+    color: white;
+    padding-left: 20px;
+}
+#activity{
+    width: 21.5rem;
+}
+.input-box i{
+    color: white;
+    position: absolute;
+    right: 24rem;
+    padding-top: 5px;
+}
+.join{
     margin-top: 34px;
     width: 181px;
     height: 50px;
