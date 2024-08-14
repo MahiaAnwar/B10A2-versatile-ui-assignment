@@ -93,10 +93,13 @@ body{
     padding: 16px;
     border-radius: 42px;
     border: none;
-    background-color: black;
 }
 #btn-red{
     background-color: rgb(230, 83, 60);
+}
+#btn-black{
+    background-color: black;
+    border: 1px solid white;
 }
 .image{
     margin-left: 350px;
@@ -172,4 +175,42 @@ body{
     margin-top: 6px;
     font-size: 14px;
     font-weight: 400;
+}
+.run-extra{
+    margin:  100px 190px 0;
+    background-color: rgb(34, 34, 34);
+    border-radius: 18px
+}
+.run{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.run-left{
+    padding-left: 54px;
+    width: 643px;
+}
+.run-left h1{
+    font-size: 48px;
+    font-weight: 900;
+}
+.run-left p{
+    margin-top: 14px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.run-right{
+    padding: 30px 30px 30px 165px;
+}
+.run-right img{
+    width: 366px;
+    height: 366px;
+    border-radius: 18px;
+}
+#btn-join{
+    margin-top: 34px;
+    width: 181px;
+    height: 50px;
+    background-color: rgb(230, 83, 60);
 }
