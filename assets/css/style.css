@@ -133,3 +133,43 @@ body{
     padding-top: 17px;
     padding-left: 24px;
 }
+/* Change Your Habits */
+.change{
+    margin:  57px 190px 0;
+    margin-top: 100px;
+}
+.middle{
+    text-align: center;
+    color: white;
+}
+.middle h1{
+    font-weight: 900;
+    font-size: 48px;
+}
+.middle p{
+    font-weight: 400px;
+    font-size: 14px;
+    padding-top: 14px;
+}
+.card-box{
+    margin-top: 58px;
+    display: flex;
+    gap: 25px;
+}
+.card{
+    text-align: center;
+}
+.card img{
+    border-radius: 50%;
+}
+.card h3,p{
+    color: white;
+}
+.card h3{
+    margin-top: 20px;
+}
+.card p{
+    margin-top: 6px;
+    font-size: 14px;
+    font-weight: 400;
+}
