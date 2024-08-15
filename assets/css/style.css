@@ -93,6 +93,7 @@ body{
     padding: 16px;
     border-radius: 42px;
     border: none;
+    cursor: pointer;
 }
 #btn-red{
     background-color: rgb(230, 83, 60);
@@ -303,7 +304,7 @@ body{
 }
 .choose-content{
     width: 50%;
-    background-image:  linear-gradient(rgba(0, 0, 0, 0.589), rgba(0, 128, 0, 0.411)), url(../img/exercise1.jpg);
+    background-image:  linear-gradient(rgba(128, 0, 128, 0.637),rgba(0, 0, 0, 0.589), rgba(0, 128, 0, 0.411),rgba(255, 192, 203, 0.733)), url(../img/exercise1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     text-align: justify;
@@ -315,6 +316,89 @@ body{
     color: white;
 }
 .choose-content p{
-    font-size: 18px;
+    margin-top: 20px;
+    font-size: 16px;
     font-weight: 700;
+}
+/* Meet Our Team */
+.meet{
+    text-align: center;
+    margin-top: 100px;
+}
+.meet h1{
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 14px;
+}
+.team-members{
+    background-color: rgba(255, 255, 255, 0.123);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    border-radius: 18px;
+    margin:  72px 190px 0;
+}
+.team-member{
+    margin: 25px 25px 20px 25px;
+}
+.team-member img{
+    width: 350px;
+    height: 350px;
+    border-radius: 18px;
+}
+.index{
+    position: relative;
+    top: -80px;
+    left: 20px;
+}
+.index h3{
+    color: white;
+}
+.index p{
+    color: rgba(255, 255, 255, 0.781);
+}
+/* footer */
+.footer{
+    background-color: rgba(255, 255, 255, 0.123);
+    margin-top: 72px;
+}
+.footer-main{
+    margin-right:  190px;
+    margin-left: 190px;
+}
+.footer-container{
+    display: flex;
+    gap: 150px;
+    padding: 66px 50px 83px;
+}
+.footer-container i{
+    font-size: 70px;
+    font-weight: 800;
+    color: #E6533C;
+}
+.footer-container p{
+    font-size: 14px;
+}
+.get h3{
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+}
+.get ul{
+    margin-top: 39px;
+}
+.get ul li{
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+.get ul li a{
+    text-decoration: none;
+    font-size: 23px;
+    color: white;
+}
+.reserved{
+    font-size: 20px;
+    padding-top: 36px;
+    text-align: center;
+    padding-bottom: 35px;
 }
