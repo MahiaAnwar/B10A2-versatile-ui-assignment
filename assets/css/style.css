@@ -288,7 +288,7 @@ body{
 }
 /* why choose us */
 .choose{
-    margin:  250px 190px 0;
+    margin:  300px 190px 0;
    display: flex;
 }
 .choose-img{
@@ -303,8 +303,18 @@ body{
 }
 .choose-content{
     width: 50%;
-    background-image:  linear-gradient(rgba(255, 192, 203, 0.473), rgba(255, 255, 255, 0.63), rgba(0, 128, 0, 0.411)), url(../img/exercise1.jpg);
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.589), rgba(0, 128, 0, 0.411)), url(../img/exercise1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-
+    text-align: justify;
+    padding: 70px;
+}
+.choose-content h3{
+    font-size: 48px;
+    font-weight: 900;
+    color: white;
+}
+.choose-content p{
+    font-size: 18px;
+    font-weight: 700;
 }
