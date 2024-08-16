@@ -16,16 +16,17 @@ body{
 }
 /* header */
 .header{
-    background-image: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+    background-image: linear-gradient(180 deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: overlay;
+}
+.header-main{
     margin:  57px 190px 0;
 }
 /* nav */
 .navbar{
     display: flex;
-    text-align: center;
     justify-content: space-between;
 }
 .logo{
@@ -40,12 +41,12 @@ body{
     display: flex;
     width: 465px;
     height: 36px;
-    gap: 10px;
     padding: 8px 20px 8px 10px;
     justify-content: space-between;
     align-items: center;
     border: 1px solid white;
     border-radius: 39px;
+    margin-left: 50%;
 }
 .links .link{
     list-style-type: none;
@@ -60,6 +61,13 @@ body{
     height: 38px;
     text-align: center;
     border-radius: 46px;
+    padding: 8px 20px;
+}
+.ham-burger{
+    visibility: hidden;
+}
+.ham-burger i{
+    color: white;
 }
 /* header content starts */
 .header-container{
@@ -81,7 +89,6 @@ body{
     margin-top: 28px;
     color: rgba(255, 255, 255, 0.5);
     font-size: 16px;
-    letter-spacing: 0.5px;
 }
 .btn-fam{
     margin-top: 44px;
@@ -120,7 +127,6 @@ body{
     height: 96px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
-    filter: blur;
     background: rgba(48, 48, 48, 0.54);
 }
 .circle{
@@ -157,7 +163,7 @@ body{
 .card-box{
     margin-top: 58px;
     display: flex;
-    gap: 25px;
+    justify-content: space-around;
 }
 .card{
     text-align: center;
@@ -165,8 +171,11 @@ body{
 .card img{
     border-radius: 50%;
 }
-.card h3,p{
+.card h3{
     color: white;
+}
+.card p{
+    color: rgba(255, 255, 255, 0.466);
 }
 .card h3{
     margin-top: 20px;
@@ -176,6 +185,7 @@ body{
     font-size: 14px;
     font-weight: 400;
 }
+/* run extra */
 .run-extra{
     margin:  100px 190px 0;
     background-color: rgb(34, 34, 34);
@@ -401,4 +411,188 @@ body{
     padding-top: 36px;
     text-align: center;
     padding-bottom: 35px;
+}
+/* *****************Responsive************************ */
+@media (max-width:570px){
+    .header-main{
+        margin-left: 20px;
+    }
+    /* navbar */
+    .logo i{
+        font-size: 72px;
+    }
+    .links{
+        visibility: hidden;
+    }
+    .ham-burger{
+        visibility: visible;
+        position: absolute;
+        top: 100px;
+        left: 500px;
+    }
+    .ham-burger i{
+        width: 100%;
+        height: 100%;
+    }
+    /* header */
+    .header-container{
+        flex-direction: column;
+        width: 32rem;
+    }
+    .header-left p{
+        font-size: 28px;
+    }
+    .image{
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .image img{
+        width: 100%;
+    }
+    #video{
+        top: 190%;
+        left: 10%;
+    }
+    #free-workout{
+        top: 140%;
+        left: 50%;
+    }
+    /* Change Your Habits */
+    .change{
+        margin: 0;
+    }
+    .middle h1{
+        font-size: 59px;
+    }
+    .middle p{
+        font-size: 34px;
+    }
+    .card-box{
+        flex-direction: column;
+    }
+    .card img{
+        width: 70%;
+    }
+    .card h3{
+        font-size: 48px;
+    }
+    .card p{
+        margin-bottom: 2rem;
+        font-size: 34px;
+    }
+    /* run extraa */
+    .run-extra{
+        margin: 0 0  0 50px;
+    }
+    .run{
+        flex-direction: column;
+    }
+    .run-left{
+        margin-left: 100px;
+        margin-top: 35px;
+    }
+    .run-left h1{
+        font-size: 32px;
+    }
+    .run-right{
+        padding-top: 30px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .run-right img{
+        width: 466px;
+    }
+    /* BMI Calculator */
+    .calculator{
+        text-align: left;
+        padding-left: 20px;
+        margin-left: 50px;
+    }
+    .calculator p{
+        color: white;
+        margin-top: 14px;
+        width: 287px;
+    }
+    .calculator-container{
+        flex-direction: column;
+        margin-left: 50px;
+    }
+    .chart{
+        margin-left: 0;
+        padding-left: 20px;
+    }
+    .table td{
+        color: rgba(255, 255, 255, 0.445);
+    }
+    .calculation p{
+        color: rgba(255, 255, 255, 0.445);
+    }
+    .calculation{
+        margin: 0;
+        padding:40px 20px;
+    }
+    .input-box input::placeholder{
+        color: rgba(255, 255, 255, 0.445);
+    }
+    #gender{
+        left: 55%;
+    }
+    #factor{
+        left: 55%;
+    }
+    /* why choose us */
+    .choose{
+        flex-direction: column;
+        margin: 0 0 0 50px;
+    }
+    .choose-img{
+        margin-top: 100px;
+        width: 100%;
+        left: 0;
+        bottom: 0;
+    }
+    .choose-content{
+        width: 73%;
+    }
+    .choose-content p{
+        color: white;
+    }
+    /* Meet Our Team */
+    .meet{
+        text-align: left;
+        margin-left: 50px;
+    }
+    .meet p{
+        color: rgba(255, 255, 255, 0.445);
+        margin-bottom: 20px;
+    }
+    .team-members{
+        grid-template-columns: 1fr;
+        margin: 0 0 0 50px;
+    }
+    .team-member{
+        margin: 50px auto 0; 
+    }
+    /* footer */
+    .footer-main{
+        margin-left: 50px;
+        margin-right: 0;
+    }
+    .footer-container{
+        flex-direction: column;
+        padding: 0;
+    }
+    .fitness p{
+        color: rgba(255, 255, 255, 0.445);
+    }
+    .get ul li a,hr, .reserved{
+        color: rgba(255, 255, 255, 0.445);
+    }
+    hr{
+        margin-top: 40px;
+        margin-right: 20px;
+    }
+    .reserved{
+        text-align: start;
+    }
 }

@@ -13,7 +13,8 @@
 </head>
 <body>
      <div class="header">
-        <!-- navbar -->
+        <div class="header-main">
+            <!-- navbar -->
         <nav class="navbar">
             <div class="logo">
                 <i>Fitness</i>
@@ -24,6 +25,9 @@
                 <li class="link"><a href="">Contact</a></li>
                 <li class="link"><a href="">About</a></li>
             </ul>
+            <div class="ham-burger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
          </nav>
          <!-- header starts -->
           <div class="header-container">
@@ -53,33 +57,34 @@
                     </div>
             </div>
           </div>
+        </div>
      </div>
      <!-- Change Your Habits -->
       <section class="change">
         <div class="middle">
             <h1>Change Your Habits</h1>
-            <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+            <p>We believe fitness should be accessible to everyone,everywhere, regardless of income or access to a gym.</p>
         </div>
         <div class="card-box">
             <div class="card">
                 <img src="assets/img/movement.png" alt="">
                 <h3>Movement</h3>
-                <p>We believe fitness should be accessible to everyone</p>
+                <p>We believe fitness should be <br> accessible to everyone</p>
             </div>
             <div class="card">
                 <img src="assets/img/time.png" alt="">
                 <h3>Time</h3>
-                <p>We believe fitness should be accessible to everyone</p>
+                <p>We believe fitness should be <br> accessible to everyone</p>
             </div>
             <div class="card">
                 <img src="assets/img/practice.png" alt="">
                 <h3>Practice</h3>
-                <p>We believe fitness should be accessible to everyone</p>
+                <p>We believe fitness should be <br> accessible to everyone</p>
             </div>
             <div class="card">
                 <img src="assets/img/weightloss.png" alt="">
                 <h3>Weight Loss</h3>
-                <p>We believe fitness should be accessible to everyone</p>
+                <p>We believe fitness should be <br> accessible to everyone</p>
             </div>
         </div>
       </section>
@@ -88,7 +93,7 @@
         <div class="run">
             <div class="run-left">
                 <h1>Run an Extra <br> Mile Easily</h1>
-                <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts.</p>
+                <p>We believe fitness should be accessible to everyone, <br> everywhere, regardless of income or access to a gym. With <br>hundreds of professional workouts.</p>
                 <button class="btn join">Join Now</button>
             </div>
             <div class="run-right">
@@ -138,11 +143,11 @@
                     <div class="input-box">
                         <input type="text" placeholder="Age">
                         <input type="text" placeholder="Sex">
-                        <i class="fa-solid fa-angle-down"></i>
+                        <i id="gender" class="fa-solid fa-angle-down"></i>
                     </div>
                     <div class="input-box">
                         <input id="activity" type="text" placeholder="Select an activity factor">
-                        <i class="fa-solid fa-angle-down"></i>
+                        <i id="factor" class="fa-solid fa-angle-down"></i>
                     </div>
                 </form>
                 <button class="btn join">Calculate</button>
