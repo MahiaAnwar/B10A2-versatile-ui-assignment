@@ -411,6 +411,7 @@ body{
     padding-top: 36px;
     text-align: center;
     padding-bottom: 35px;
+    color: rgba(255, 255, 255, 0.781);
 }
 /* *****************Responsive************************ */
 @media (max-width:570px){
